@@ -1,0 +1,47 @@
+.arco-layout {
+  min-height: 100vh;
+}
+.arco-layout-header {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  background-color: var(--color-white);
+}
+.logo {
+  width: 100px;
+  height: 40px;
+  background-color: var(--color-fill-3);
+  cursor: pointer;
+}
+.nav-header {
+  width: 600px;
+}
+/*todo: 轮播图的占位*/
+.carousel-demo {
+  height: 600px;
+  background-color: var(--color-fill-3);
+  margin-bottom: 20px;
+}
+
+/* footer */
+.arco-layout-footer {
+  background-color: rgb(var(--gray-10));
+  color: rgb(var(--gray-1));
+}
+.SiteInfo {
+  margin: 25px 0;
+  text-align: center;
+}
+.SiteInfo > span:nth-child(1),
+.SiteInfo > span:nth-child(2){
+  margin-right: 30px;
+  line-height: 24px;
+}
+.SiteInfo > span > img {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px -3px 0;
+}
+.SiteInfo > span > a {
+  color: rgb(var(--gray-1));
+}
